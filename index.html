@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ujumbe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="profil-user">
+            <img src="/img/logo.jpg" alt="Logo">
+            <h1>Ujumbe</h1>
+        </div>
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html">Messages</a></li>
+                <li><a href="#">Appel</a></li>
+                <li><a href="settings.html">Paramètres</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Messages récents</h2>
+        <div class="messages-container">
+            <ul class="messages-list">
+
+            </ul>
+        </div>
+        <div class="container">
+            <ul class="messages-receved">
+                <li class="message">
+                    <div class="user-sender">
+                        <span class="user-avatar">M</span>
+                        <h3>Marie</h3>
+                    </div>
+                    <p>Bonjour! Comment ça va?</p>
+
+        </div>
+        </div>
+        <div class="message-form">
+            <h2>Envoyer un message</h2>
+            <form action="send_message.php" method="POST">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+        </div>
+        <div class="footer">
+            <p>&copy; 2024 Ujumbe. Tous droits réservés.</p>
+        </div>
+        <script src="messages.js"></script>
+        <script src="script.js"></script>
+</body>
+
+</html>
